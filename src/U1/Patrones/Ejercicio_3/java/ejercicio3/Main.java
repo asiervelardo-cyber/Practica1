@@ -11,7 +11,7 @@ public class Main {
         System.out.println("p1: " + p1);
         System.out.println("p2: " + p2);
 
-        // Comprobación: == compara referencias, así que true significa que es el MISMO objeto.
+        // Comprobación: comparamos ambos objetos y mostramos sus hshcode para verificar que son distintos.
         System.out.println("¿p1 y p2 son el mismo objeto? " + (p1 == p2));
         System.out.println("hashCode p1: " + System.identityHashCode(p1));
         System.out.println("hashCode p2: " + System.identityHashCode(p2));
