@@ -8,6 +8,6 @@ public abstract class Figura {
         this.color = color;
     }
 
-    // Abstracto: cada figura concreta decide cómo se dibuja.
+    // Abstracto: cada figura concreta se dibuja a su manera.
     public abstract void dibujarFigura();
 }
